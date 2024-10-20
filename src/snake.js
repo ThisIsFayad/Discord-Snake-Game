@@ -70,7 +70,6 @@ export class Snake {
         // snake ate itself
         if (this.snake.some((p) => p.x == head.x && p.y == head.y)) {
             this.gameover = true;
-            console.log("Game Over!");
             return;
         }
 
