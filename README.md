@@ -47,3 +47,6 @@ Before getting started, ensure you have the following installed on your system:
  - Copy the generated URL and use it to invite the bot to your server.
 
 Once the bot is running, use the `/play` command in your Discord server to start a new game.
+
+> [!NOTE]
+> This bot has been tested with one game instance running at a time. Multiple instances might cause issues due to Discord limitations on the amount of edits made per second.
